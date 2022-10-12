@@ -3,7 +3,7 @@ import thunk from 'redux-thunk'; //Se usa para promesas
 import pokeReducer from './pokeDucks';
 
 const rootReducer = combineReducers({
-  pokemones: pokeReducer,
+  listaPokemones: pokeReducer,
 
 });
 
